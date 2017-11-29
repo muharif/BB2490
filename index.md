@@ -1,12 +1,14 @@
-## Muhammad Arif's BB2490 Individual Diary
+# Muhammad Arif's BB2490 Individual Diary
 
-# Table of contents
+## Table of contents
 1. [2017-11-28](#1)
 2. [2017-11-29](#2)
 
-
+## Diary
 ### 2017-11-29<a name="2"></a>:
-
+Preparing libraries for the data analysis, for discussion tomorrow with the group:
+* Gene To Transcript data
+* Gene Length data (for calculating normalized count)
 
 ### 2017-11-28<a name="1"></a>:
 First entry of the diary!
