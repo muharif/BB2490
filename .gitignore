@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Data/*
+Library/*
+R_Code/gencode.v27.annotation.gtf
