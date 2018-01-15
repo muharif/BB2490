@@ -8,12 +8,45 @@
 5. [2017-12-03](#5)
 6. [2017-12-05 (DESeq2)](#6)
 7. [2017-12-05 (PIANO)](#7)
+8. [2017-12-09](#8)
+9. [2017-12-09](#9)
+10. [2017-12-28](#10)
+11. [2018-1-11](#11)
+12. [2018-1-12](#12)
 
 ## Diary
+### 2018-1-12<a name="12"></a>:
+Our last team meeting before the preso: Finalizing our paper! Ready for the presentation
+
+### 2018-1-11<a name="11"></a>:
+We met again to finalize our results and to create the poster. We have decided what to include in the posters (you will see it during the presentation :D). My next task for today: Create a network figure for the metabolic pathways with number of shared significant genes as the edge. This figure will help us to emphasize our finding that fatty acid and amino acid metabolic pathways are disturbed.
+
+Here's the figure:
+
+![net](https://muharif.github.io/BB2490/Network_done_v3.png "net")
+
+
+
+### 2017-12-28<a name="10"></a>:
+I was away for several days and these past few days I was trying to search for more information to validate our result. Collected several papers, the top 3 that I think it's good to mention:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5572395/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5541415/
+https://www.ncbi.nlm.nih.gov/pubmed/28992545
+
+These papers support most of our findings.
+
+### 2017-12-11<a name="9"></a>:
+3rd Group Meeting. We decided that now we have to carry on to the next step, validation of the result. I'm in charge of reviewing the functional analysis result, especially the progession from Healthy to Steathosis.
+
+### 2017-12-09<a name="8"></a>:
+To get more sensitivity in the analysis, we decided to do one-way ANOVA test to find the significantly changing genes. We understood that it would not give much information about in which stage is the changes occur. After we did this, we found out that the number of significantly different genes in terms of expression was quite similar to the DESeq2 result.
+
 ### 2017-12-05 (PIANO) <a name="7"></a>:
 Functional or gene enrichment analysis was performed using PIANO. The input for piano was:
 1. Gene Set Collection (retrieved from MSigDB): Mapping from pathway/biological process to gene
 2. Fold Changes and P-Values from DESeq2
+
+As the result of this, we found several pathways and processes that are significantly affected by the disease.
 
 ```R
 library(DESeq2)
